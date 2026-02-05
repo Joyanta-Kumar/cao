@@ -1,4 +1,8 @@
 @font-face {
-  font-family: FiraCode Nerd Font;
+  font-family: FNF;
   src: url("https://github.com/Trzcin/Fira-Code-Nerd/blob/master/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete.ttf");
+}
+
+* {
+  font-family: FiraCode Nerd Font, FNF;
 }
