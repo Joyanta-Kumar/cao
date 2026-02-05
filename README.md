@@ -1,6 +1,17 @@
+<style>
+@font-face {
+  font-family: "FiraCode Nerd Font";
+  src: url("https://github.com/Trzcin/Fira-Code-Nerd/blob/master/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete.ttf");
+}
+* {
+  font-family: "FiraCode Nerd Font";
+}
+</style>
+
+
 # Top-level view of computer system
 
-## Definition**  
+## Definition
 A computer is an electronic system that process data and instructions. At top level, it consists of:  
 
 | module | work |
@@ -184,13 +195,13 @@ Registers are the CPU's fastest storage, classified as general-purpose, special-
 # Instruction Format (Opcode & Operands)  
 
 ## Definition
-And instruction is a binary pattern that tell the CPU what operation to perform and on what data.
+An instruction is a binary pattern that tell the CPU what operation to perform and on what data.
 
 It has two main elements:
 
 ### Opcode
 - Specifies the operation to perform.  
-- Examples: `ADD`, `SUB`, `LOAD`, `STORE`, `JMP`.  
+- Examples: `LOAD`, `ADD`, `STORE`, `JMP`.  
 - Decoded by the control unit to generate control signals.  
 
 ### Operands
