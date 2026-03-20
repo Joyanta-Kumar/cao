@@ -1,6 +1,14 @@
 <link rel="stylesheet" href="style.css">
 
 
+| Task | Primary Component |
+| :--- | :--- |
+| **Input** | Input Devices |
+| **Processing** | CPU (ALU & CU) |
+| **Output** | Output Devices |
+| **Storage** | Memory & Secondary Storage |
+
+
 # Top-level view of computer system
 
 ## Definition
